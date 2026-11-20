@@ -44,7 +44,7 @@ jobs:
           trivy image \
             --format json \
             -o "${REPO_NAME}.json" \
-            knqyf263/vuln-image:1.2.3g
+            knqyf263/vuln-image:1.2.3
 
           ls -lh "${REPO_NAME}.json"
 
